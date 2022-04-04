@@ -8,4 +8,8 @@ class Dog < Animal
   def bring_a_stick
     'Here is your stick: ---------'
   end
+
+  def speak
+    'woof woof'
+  end
 end
