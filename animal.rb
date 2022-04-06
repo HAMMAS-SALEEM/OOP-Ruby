@@ -1,5 +1,5 @@
-require "./remover.rb"
-require "./food.rb"
+require './remover'
+require './food'
 
 class Animal
   def initialize(type, number_of_legs, name = 'Unknown name')

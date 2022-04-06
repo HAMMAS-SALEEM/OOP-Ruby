@@ -1,5 +1,5 @@
 require './animal'
-require "./food.rb"
+require './food'
 
 class Spider < Animal
   def initialize(name = 'Unknown')

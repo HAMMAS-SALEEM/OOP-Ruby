@@ -1,5 +1,5 @@
-require "./animal.rb"
-require "./food.rb"
+require './animal'
+require './food'
 
 class Dog < Animal
   def initialize(name = 'unknown')

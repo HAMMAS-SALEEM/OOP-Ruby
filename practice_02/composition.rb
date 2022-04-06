@@ -1,12 +1,11 @@
 class Parent
+  def override()
+    puts 'PARENT override()'
+  end
+end
 
-    def override()
-      puts "PARENT override()"
-    end
+class Child < Parent
+  def override()
+    puts 'CHILD override()'
   end
-  
-  class Child < Parent
-    def override()
-      puts "CHILD override()"
-    end
-  end
+end
