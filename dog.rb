@@ -2,8 +2,9 @@ require './animal'
 require './food'
 
 class Dog < Animal
-  def initialize(name = 'unknown')
+  def initialize(color, name = 'unknown')
     super('dog', 4, name)
+    @color = color
     @liked_food = Food.new
   end
 

@@ -2,9 +2,10 @@ require './animal'
 require './food'
 
 class Spider < Animal
-  def initialize(name = 'Unknown')
+  def initialize(age, name = 'Unknown')
     super('spider', 8, name)
     @liked_food = Food.new
+    @age = age
   end
 
   def make_a_web

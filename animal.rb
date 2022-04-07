@@ -10,7 +10,7 @@ class Animal
     @liked_food = Food.new
   end
 
-  attr_accessor :name
+  attr_accessor :name, :owner
   attr_reader :id, :type, :number_of_legs, :liked_food
 
   def speak
